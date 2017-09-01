@@ -1,0 +1,43 @@
+.single-post {
+    position: relative;
+    &__category {
+        position: absolute;
+        top: 7%;
+        left: 5%;
+        padding: 5px 20px;
+        border-radius: 20px;
+        color: white;
+        background: #5CDAA0;
+        text-align: center;
+        font-size: 30px;
+    }
+    &__image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    &__author {
+        font-weight: bold;
+    }
+    &__title {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .single-post {
+        &__category {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .single-post {
+        &__category {
+            font-size: 16px;
+        }
+    }
+}
