@@ -1,1 +1,0 @@
-exports.dbase = 'mongodb://admin:91045@ds129723.mlab.com:29723/blog-app'
