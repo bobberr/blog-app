@@ -34,7 +34,7 @@ class SignIn extends React.Component {
                                 <FormGroup validationState={this.props.state.unLogIn ? 'error' : null}>
                                     <ControlLabel>Password</ControlLabel>
                                     <FormControl type="password" inputRef={ref => {this.passInput = ref}} placeholder="Password" />
-                                    {this.props.state.unLogIn ? <HelpBlock>User doesn't exist or wrong password</HelpBlock> : null}
+                                    {this.props.state.unLogIn ? <HelpBlock>User doesnt exist or wrong password</HelpBlock> : null}
                                 </FormGroup>
                                 <div className="flex-button-wrap">
                                     <Button type='submit' bsSize="large" bsStyle='primary'>Submit</Button>
